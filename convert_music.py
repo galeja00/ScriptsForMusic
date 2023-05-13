@@ -113,8 +113,7 @@ def connvert(direc, remuv):
     else: remuv = False
     #if chack_key(direc):1
     #   direc = find_conf_direc(direc)
-    #pro testovani
-    if direc == "1": direc = "C:/Users/kubex/documents/Soulseek Downloads/"
+    #pro testovan
     #vsechny soubory do pole
     files = os.listdir(direc)
     #zacina connvertování
