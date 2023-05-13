@@ -1,2 +1,2 @@
-soulseek:C:/Users/kubex/documents/Soulseek Downloads/
-random:F:/Music
+<id>: <path>
+<id>: <path>
