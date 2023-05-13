@@ -96,10 +96,10 @@ def configure_path_file():
             write_path_valus(key, value)
         else:
             print("Tato hodnota je v souboru chcete ji přepsat?")
-            rewrite = input("Chcete ji přepsat napis(Y/N): ")
+            rewrite = input("Chcete ji přepsat?(Y/N): ")
             if rewrite == "Y":
                 rewrite_path_value(key, value)
-        next_in = input("Cheš zadat dalěí hodnotu? napiš(Y/N):")
+        next_in = input("Chcete zadat další hodnotu?(Y/N):")
         if next_in == "N":
             inserting = False
 
@@ -138,5 +138,5 @@ def connvert(direc, remuv):
 
 
 direc = input("Složka kterou chcete convertovat:")
-remuv = input("Chete odstranit predchozi soubory? napiš(Y/N):")
+remuv = input("Chete odstranit predchozi soubory?(Y/N):")
 connvert(direc, remuv)
